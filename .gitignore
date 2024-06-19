@@ -1,0 +1,52 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary directories
+tmp/
+temp/
+
+# Ignore build files
+build/
+dist/
+out/
+
+# Ignore OS configuration files
+*.bak
+*.swp
+*.swo
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore dependency directories
+node_modules/
+vendor/
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore Python library files
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Ignore Java library files
+*.class
+*.jar
+
+# Ignore generated image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Ignore configuration files
+.env
