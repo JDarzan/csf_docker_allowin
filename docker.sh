@@ -39,7 +39,7 @@ add_to_docker_isolation() {
 }
 
 DOCKER_INT="docker0"
-DOCKER_NETWORK="172.18.0.0/16"
+DOCKER_NETWORK="172.28.0.0/16"
 
 /usr/sbin/iptables-save | grep -v -- '-j DOCKER' | /usr/sbin/iptables-restore
 chain_exists DOCKER && /usr/sbin/iptables -X DOCKER
